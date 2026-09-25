@@ -1,0 +1,11 @@
+{
+    "key": "climbing:speed",
+    "type": "defaultCheck",
+    "label": "Speed Climbing",
+    "strings": {
+        "options": {
+            "undefined": "No",
+            "yes": "Yes"
+        }
+    }
+}

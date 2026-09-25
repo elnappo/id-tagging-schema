@@ -9,18 +9,27 @@
         "building_area_yes"
     ],
     "moreFields": [
-        "{leisure/sports_centre}"
+        "{leisure/sports_centre}",
+        "climbing/boulder",
+        "climbing/sport",
+        "climbing/speed",
+        "climbing/toprope"
     ],
     "terms": [
-        "abseiling",
         "artificial climbing wall",
         "belaying",
         "bouldering",
+        "climbing",
+        "indoor bouldering",
+        "indoor climbing",
         "indoor rock wall",
-        "rappeling",
         "rock climbing facility",
         "rock gym",
-        "ropes"
+        "rope climbing",
+        "ropes",
+        "speed climbing",
+        "top rope climbing",
+        "toprope"
     ],
     "tags": {
         "leisure": "sports_centre",
