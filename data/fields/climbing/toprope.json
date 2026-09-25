@@ -1,0 +1,11 @@
+{
+    "key": "climbing:toprope",
+    "type": "defaultCheck",
+    "label": "Top Rope Climbing",
+    "strings": {
+        "options": {
+            "undefined": "No",
+            "yes": "Yes"
+        }
+    }
+}

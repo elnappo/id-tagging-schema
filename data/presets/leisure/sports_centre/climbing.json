@@ -5,30 +5,55 @@
         "area"
     ],
     "fields": [
-        "{leisure/sports_centre}",
+        "name",
+        "climbing/boulder",
+        "climbing/sport",
+        "climbing/speed",
+        "climbing/toprope",
+        "opening_hours",
+        "address",
+        "fee",
+        "building_area",
         "building_area_yes"
     ],
     "moreFields": [
+        "charge_fee",
+        "operator",
+        "operator/type",
+        "payment_multi_fee",
         "{leisure/sports_centre}"
     ],
     "terms": [
-        "abseiling",
         "artificial climbing wall",
         "belaying",
+        "boulder gym",
+        "boulder",
+        "bouldering gym",
         "bouldering",
+        "climbing",
+        "indoor bouldering",
+        "indoor climbing",
         "indoor rock wall",
-        "rappeling",
         "rock climbing facility",
         "rock gym",
-        "ropes"
+        "rope climbing",
+        "ropes",
+        "speed climbing",
+        "top rope climbing",
+        "toprope"
     ],
     "tags": {
         "leisure": "sports_centre",
         "sport": "climbing"
     },
-    "reference": {
-        "key": "sport",
-        "value": "climbing"
+    "removeTags": {
+        "climbing": "*"
     },
-    "name": "Climbing Gym"
+    "reference": {
+        "key": "climbing"
+    },
+    "name": "Climbing Gym",
+    "aliases": [
+        "Boulder Gym"
+    ]
 }
