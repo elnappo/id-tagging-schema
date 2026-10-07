@@ -1995,5 +1995,33 @@
   {
     "old": {"man_made": "paifang"},
     "replace": {"man_made": "ceremonial_gate", "ceremonial_gate": "paifang"}
+  },
+  {
+    "old": {"climbing:bouldering": "*"},
+    "replace": {"climbing:boulder": "$1"}
+  },
+  {
+    "old": {"climbing:traditional": "*"},
+    "replace": {"climbing:trad": "$1"}
+  },
+  {
+    "old": {"climbing:grade:fb": "*"},
+    "replace": {"climbing:grade:font": "$1"}
+  },
+  {
+    "old": {"climbing:rock": "*"},
+    "replace": {"material": "$1"}
+  },
+  {
+    "old": {"leisure": "climbing"},
+    "replace": {"sport": "climbing"}
+  },
+  {
+    "old": {"sport": "bouldering"},
+    "replace": {"sport": "climbing", "climbing:boulder": "yes"}
+  },
+  {
+    "old": {"sport": "ice_climbing"},
+    "replace": {"sport": "climbing", "climbing:ice": "yes"}
   }
 ]
