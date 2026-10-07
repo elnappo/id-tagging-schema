@@ -1,0 +1,38 @@
+{
+    "icon": "temaki-climbing_wall",
+    "fields": [
+        "name",
+        "climbing/sport",
+        "climbing/boulder",
+        "description",
+        "website",
+        "access"
+    ],
+    "moreFields": [
+        "operator",
+        "lit",
+        "fee"
+    ],
+    "geometry": [
+        "point",
+        "area",
+        "line"
+    ],
+    "terms": [
+        "climbing wall",
+        "boulder wall",
+        "boulder block",
+        "climbing tower"
+    ],
+    "tags": {
+        "leisure": "pitch",
+        "sport": "climbing"
+    },
+    "removeTags": {
+        "climbing": "*"
+    },
+    "reference": {
+        "key": "climbing"
+    },
+    "name": "Artificial Climbing/Boulder Wall"
+}
